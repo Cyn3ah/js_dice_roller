@@ -37,15 +37,15 @@ rollBtn.addEventListener("click", function() {
 displayRollBtn.addEventListener("click", function() {
     let displayAllDie = document.querySelector('#showDice')
 
-    let 
-
-    for (let i = 0; i < displayAllDie; i++) {
+    for (let i = 0; i < dieRolls.length; i++) {
         
-        let displayAllDie = '<li id="liDie">' + dieRolls.innerHTML + '</li>'
+        displayAllDie.innerHTML += '<li id="liDie">' + dieRolls[i] + '</li>' 
 
         // dieRolls += dieRollRequest
 
         console.log(displayAllDie)
     }
+
+    //loop thru array and print individual li on page
 
 })
