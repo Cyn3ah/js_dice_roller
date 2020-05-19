@@ -1,0 +1,20 @@
+* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+/* main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+} */
+
+#totalScore {
+    height: 55px;
+    width: 50px;
+    border: 2px black solid;
+}
